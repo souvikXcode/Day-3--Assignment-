@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <math.h>
+
+int main() {
+    float num;
+
+    printf("Enter a number (positive or negative): ");
+    scanf("%f", &num);
+
+    printf("Floor value of %.2f = %.2f\n", num, floorf(num));
+    printf("Ceiling value of %.2f = %.2f\n", num, ceilf(num));
+
+    return 0;
+}
